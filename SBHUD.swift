@@ -14,10 +14,12 @@ class SBHUD {
   }
   private static var _window: UIWindow?
   
+  // forbit init
   init() {
     fatalError("this class dont use to create an instance")
   }
   
+  // private function 
   private static func showMessage(message: String?, image: UIImage?) {
     if SBHUD._window != nil {
       return
@@ -41,6 +43,7 @@ class SBHUD {
     
     SBHUD._window?.isHidden = false
     
+    // animate show and hide then _window = nil
     UIView.animate(withDuration: SBVar.AnimationDuration,
                    animations: { 
                     var aframe = SBHUD._window?.frame
@@ -95,6 +98,7 @@ class SBHUD {
                              y: 0,
                              width: SBVar.WindowHeight,
                              height: SBVar.WindowHeight)
+    // indicator is too big, but system CGRect cant size it, so using CGAffineTransform
     indicator.transform = CGAffineTransform(scaleX: 0.7, y: 0.7)
     indicator.startAnimating()
     SBHUD._window?.addSubview(indicator)
