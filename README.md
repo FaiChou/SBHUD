@@ -1,11 +1,11 @@
 # SBHUD
 ####  👓 Overview
 
-![loading](http://p9qv3iwy5.bkt.clouddn.com/loading.png)
+![loading](https://raw.githubusercontent.com/FaiChou/faichou.github.io/master/img/qiniu/loading.png)
 
-![success](http://p9qv3iwy5.bkt.clouddn.com/success.png)
+![success](https://raw.githubusercontent.com/FaiChou/faichou.github.io/master/img/qiniu/success.png)
 
-![fail](http://p9qv3iwy5.bkt.clouddn.com/fail.png)
+![fail](https://raw.githubusercontent.com/FaiChou/faichou.github.io/master/img/qiniu/fail.png)
 
 
 
